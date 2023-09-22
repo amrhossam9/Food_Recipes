@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  RxInt counter = 0.obs;
-
-  void increment() {
-    counter++;
+  
+  void categoriesWidgets() {
+    
+        update();
   }
 }

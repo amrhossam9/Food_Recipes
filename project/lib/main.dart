@@ -12,6 +12,7 @@ class FoodApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      theme: ThemeData(fontFamily: 'Roboto'),
       debugShowCheckedModeBanner: false,
       title: 'Get Route Managment',
       initialRoute: '/home',

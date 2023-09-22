@@ -36,6 +36,10 @@ android {
         jvmTarget = '1.8'
     }
 
+    ext {
+    kotlin_version = "1.6.0"
+}
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
